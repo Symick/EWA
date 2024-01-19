@@ -173,6 +173,7 @@ service:
 
 - EmailService: Noa
 - EmailLoginResetService: Noa
+- InventoryService: Julian
 
 
 java/nl/solar/app:
