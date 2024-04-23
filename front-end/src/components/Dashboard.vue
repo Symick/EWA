@@ -327,9 +327,9 @@ export default {
       this.updateChart();
       this.orderData = this.getOrdersBySelectedWarehouse(this.orders)
     },
-    warehouseSelect(warehouse) {
+    async warehouseSelect(warehouse) {
       this.selectedWarehouse = warehouse;
-      this.fetchInventoryQuantity(warehouse);
+      await this.fetchInventoryQuantity();
       this.updateChart();
     },
     /**
