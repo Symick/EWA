@@ -99,7 +99,7 @@ DTO:
 - ItemDTO: Julian
 - OrderRequestDTO: Julian
 - OrderUpdateTestDTO: Julian
-- DashboardDTO: Hanan
+- DashboardDTO: Anonymous
 
 models:
 
@@ -148,7 +148,7 @@ repositories/jpaRepositories:
 - ProductRepositoryJpa: Julian
 - UserRepositoryJpa: Noa
 - WarehouseRepositoryJpa: Wilco
-- DashboardRepositoryJpa: Hanan
+- DashboardRepositoryJpa: Anonymous
 - TeamRepositoryJpa: Nashon
 
 rest:
@@ -161,7 +161,7 @@ rest:
 - ProductController: Julian
 - UserController: Noa
 - WarehouseController: Wilco
-- DashboardController: Hanan & Wilco
+- DashboardController: Anonymous & Wilco
 - TeamController: Nashon
 
 security:
@@ -196,7 +196,7 @@ components:
 - OrderOverview: Julian
 - UserOverview: Noa, Nashon
 - WarehouseOverview: Wilco
-- Dashboard: Hanan
+- Dashboard: Anonymous
 - TeamOverview: Nashon
 
 modal:
@@ -236,7 +236,7 @@ front-end/service:
 - SessionSbService: Noa
 - userAdaptor: Noa
 - warehouseAdaptor: Wilco
-- DashboardAdaptor: Hanan
+- DashboardAdaptor: Anonymous
 - teamAdaptor: Nashon
 
 front-end/models:
@@ -253,7 +253,6 @@ router:
 ### Contacts
 
 - Tim Knops
-- Hanan Ouardi
 - Nashon Woldai
 - Julian Kruithof
 - Wilco van de Pol

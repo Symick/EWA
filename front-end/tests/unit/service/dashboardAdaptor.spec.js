@@ -3,7 +3,7 @@ import {DashboardAdaptor} from "@/service/dashboardAdaptor";
 /**
  * Unit tests for the DashboardAdaptor class
  *
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 //Right-Bicep as the base
 describe("DashboardAdaptor", () => {

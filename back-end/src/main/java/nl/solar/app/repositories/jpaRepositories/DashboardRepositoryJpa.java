@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
  * JPA repository for the dashboard data
  * Retrieves the dashboard table items, project data and the current Inventory
  *
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 @Repository
 @Primary

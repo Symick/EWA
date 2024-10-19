@@ -2,7 +2,7 @@
  * DashboardAdaptor class is responsible for fetching data related to dashboard items
  * from the API endpoints.
  *
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 export class DashboardAdaptor {
     resourceURL;

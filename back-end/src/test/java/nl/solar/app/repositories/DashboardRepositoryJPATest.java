@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * JUnit test class for testing the methods of DashboardRepositoryJpa
  *
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 @EntityScan(basePackages = "nl.solar.app.models")
 @DataJpaTest(includeFilters = @ComponentScan.Filter(type = FilterType.ANNOTATION,

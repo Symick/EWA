@@ -43,7 +43,7 @@ public class DashboardController {
      * Retrieves a list of the dashboard items for the inventory of the dashboard table
      *
      * @return a list of DasboardDTO for the inventory dashboard table
-     * @author Hanan Ouardi
+     * @authorAnonymous
      */
     @GetMapping("/inventory")
     public List<DashboardDTO> getDashboardItems() {
@@ -54,7 +54,7 @@ public class DashboardController {
      * Retrieves a list of the dashboard items for the projects that are being used.
      *
      * @return a list of DasboardDTO of the project items
-     * @author Hanan Ouardi
+     * @authorAnonymous
      */
     @GetMapping("/project")
     public List<DashboardDTO> getProjectDashboardItems() {
@@ -65,7 +65,7 @@ public class DashboardController {
      * Retrieves a list of the dashboard items for all the quantities of the current inventory
      *
      * @return a list of DasboardDTO of all the current inventories
-     * @author Hanan Ouardi
+     * @authorAnonymous
      */
     @GetMapping("/inventory-quantity")
     public List<DashboardDTO> getInventoryQuantity() {

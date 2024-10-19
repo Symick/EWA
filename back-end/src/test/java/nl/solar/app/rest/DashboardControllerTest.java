@@ -16,7 +16,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Test class for testing the HTTP endpoints of the DashboardController
  *
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 @SpringBootTest
 @AutoConfigureMockMvc

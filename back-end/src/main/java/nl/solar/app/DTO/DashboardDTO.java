@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * The DTO represents all the dashboard information
  *
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 public class DashboardDTO {
 

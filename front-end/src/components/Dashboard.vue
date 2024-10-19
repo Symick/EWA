@@ -85,7 +85,7 @@ import ModalComponent from "@/components/modal/ModalComponent.vue";
  * and a table for pending order confirmations.
  *
  * @component Dashboard
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 export default {
   // eslint-disable-next-line

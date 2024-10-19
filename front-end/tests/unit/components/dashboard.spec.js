@@ -10,7 +10,7 @@ Object.defineProperty(global.HTMLCanvasElement.prototype, 'getContext', {
 /**
  * Unit tests for the Dashboard component
  *
- * @author Hanan Ouardi
+ * @authorAnonymous
  */
 describe('Dashboard.vue', () => {
     // Mock chart data
